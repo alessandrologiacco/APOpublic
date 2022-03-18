@@ -241,38 +241,6 @@ In questo modo lo sviluppatore del modulo può controllare
 cosa l'utilizzatore importa quando decide di importare "tutto".
 
 
-## Dove python cerca i pacchetti
-https://stackoverflow.com/questions/24622041/python-importing-a-module-from-a-parallel-directory
-ImportError: attempted relative import with no known parent package
-
-### Pacchetti paralleli
-Creare nella cartella principale un nuovo pacchetto chiamato others. Nel pacchetto creare un modulo python chiamato *parallel.py* che importa il modulo *greetings.py*.
-
-```python
-import salutations.greetings as grt
-grt.greet("John Doe")
-```
-Lanciare il codice dalla cartella princip
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-### Others
-- moduli possono essere stati scritti in C (parte librerie)
-- import ripetuti
-- import paralleli
-
-
 
 
 
