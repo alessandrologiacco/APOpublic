@@ -17,6 +17,15 @@ Ogni volta che il bottone è premuto la label deve cambiare proprio colore di sf
 Scegliere a piacere quali e quanti colori utilizzare.
 Una volta passati tutti i colori di sfondo, ricominciare dal primo.
 
+#### Nota
+Su mac c'è un [bug](https://stackoverflow.com/questions/28589021/background-color-of-tkinter-label-will-not-change-python-3-4#33727986)
+nello stile di default (*aqua*) che non permette, tra le altre cose, di cambiare lo sfondo alle label.
+Per risolverlo, basta cambiare lo stile usato, aggiungendo le seguenti due linee ad inizio programma:
+```python
+style = ttk.Style()
+style.theme_use('classic') # Qualsiasi stile che non sia aqua.
+```
+
 ## Esercizio 2
 Modificare l'interfaccia grafica sviluppata al punto precedente 
 per permettere all'utente di selezionare direttamente il colore di sfondo
