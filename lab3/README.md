@@ -20,7 +20,7 @@ Una volta passati tutti i colori di sfondo, ricominciare dal primo.
 #### Nota
 Su mac c'è un [bug](https://stackoverflow.com/questions/28589021/background-color-of-tkinter-label-will-not-change-python-3-4#33727986)
 nello stile di default (*aqua*) che non permette, tra le altre cose, di cambiare lo sfondo alle label.
-Per risolverlo, basta cambiare lo stile usato, aggiungendo le seguenti due linee ad inizio programma:
+Per risolverlo, basta cambiare lo stile usato, aggiungendo le seguenti due linee ad inizio programma (**DOPO** aver creato la finestra principale con *Tk()* ):
 ```python
 style = ttk.Style()
 style.theme_use('classic') # Qualsiasi stile che non sia aqua.
