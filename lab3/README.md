@@ -61,3 +61,9 @@ nomi e punteggi dei tre miglior giocatori.
 
 Se un giocatore viene inserito più volte esso non deve essere duplicato,
 ma il suo ponteggio deve essere aggiornato all'ultimo fornito.
+
+## Riferimenti
+- [TkDocs tutorial](https://tkdocs.com/index.html)
+- [Python Tk documentation](https://docs.python.org/3/library/tkinter.html) (no canvas)
+- [John Shipman's Tk doc for ptyhon](https://tkdocs.com/shipman/intro.html) (vecchia ma con canvas)
+
