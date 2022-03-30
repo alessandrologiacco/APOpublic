@@ -8,7 +8,7 @@ Su MAC e Linux è presente l'applicativo Terminal (o simili) che lancia un termi
 
 - Per Windows dal file explorer premere shift in contemporanea al tasto destro di modo da far comparire la voce *Apri finestra PowerShell qui*
 
-Per provare, lanciare i segueni comandi:
+Per provare, lanciare i seguenti comandi:
 ``` bash
  ls # mostra contenuto cartella
  cd nome_cartella # si sposta nella cartella
@@ -16,7 +16,7 @@ Per provare, lanciare i segueni comandi:
  ```
 
 ## Python
-Scaricare python dal sequente [link](https://www.python.org/downloads/release/python-3910/). Al fondo della pagina trovate i link al download per i diversi sistemi operativi.
+Scaricare python dal seguente [link](https://www.python.org/downloads/release/python-3910/). Al fondo della pagina trovate i link al download per i diversi sistemi operativi.
 
 Selezionare le versioni 64 bit, a meno che il vostro sistema non sia a 32 bit. Una volta scaricato avviare l'installer.
 
@@ -32,7 +32,7 @@ python # lancia l'interprete di python, digitare exit() per uscire
 Per installare Git seguire le istruzioni al seguente [link](https://git-scm.com/downloads), selezionando il proprio sistema operativo.
 
 #### Windows
-Scaricare l'installer (*.exe*) e durante il processo di installazione lasciare tutte le opzioni a quelle di default.
+Scaricare l'installer (*.exe*) e durante il processo d'installazione lasciare tutte le opzioni a quelle di default.
 
 #### MacOS
 L'installazione su mac richiede l'istallazione del packet manager **brew**. Brew a sua volta richiede i *Command Line Tools (CLT) for Xcode*.
@@ -65,7 +65,7 @@ git config --global user.name "Your Name" # inserire vostro nome/nickname
 ```
 
 ## PyCharm
-Dal [sito web](https://www.jetbrains.com/pycharm/download/) di PyCharm, seguire le istruzioni di installazione per il vostro sistema operativo. 
+Dal [sito web](https://www.jetbrains.com/pycharm/download/) di PyCharm, seguire le istruzioni d'installazione per il vostro sistema operativo. 
 
 La *Community Edition* basta e avanza (questo corso potreste farlo, e lo consiglio, usando terminale e Notepad++).
 
@@ -76,7 +76,7 @@ Creare un progetto e testare un semplice programma per verificare che Python ven
 ## Github
 Andare su [github](https://github.com/) e creare un account.
 Questo verrà utilizzato per:
-- Imparare ad usare git, che è al giorno d'oggi è fondamentale per lo sviluppo software
+- Imparare a usare git, che è al giorno d'oggi è fondamentale per lo sviluppo software
 - Rende più semplice rispondere a domande da casa su problemi specifici del vostro codice
 
 

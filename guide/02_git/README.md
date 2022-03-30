@@ -3,7 +3,7 @@ Questo file contiene un tutorial per configurare il proprio account **GitHub** e
 Prima di procedere consultare la guida software.
 
 ### Informazioni generali
-Impostare il proprio file manager per visuallizzare le estensioni dei file e i file nascosti (quelli che iniziano con punto).
+Impostare il proprio file manager per visualizzare le estensioni dei file e i file nascosti (quelli che iniziano con punto).
 - In **Finder** (MacOS) usare ```shift+command+period``` per mostrare i file nascosti e andare in  ```Preferenze -> Avanzate -> Mostra tutte le estensioni dei nomi documenti```
 - In **Esplora Risorse** (Windows) andare in ```Visualizza-> Elementi nascosti``` e ```Visualizza -> Estensioni nome file```
 
@@ -32,12 +32,12 @@ git config --global user.email "youremail@yourdomain.com"
 ### Creazione repository
 Dopo aver creato un account **GitHub**, cliccare sul bottone **New repository** o **New** per creare un nuovo repository.
 Mettere il nome che si preferisce e poi selezionare la visibilità **pubblica**.
-Questo permetterà a tutti di vedere il contenuto e faciliterà la risposta ad eventuali domande da casa.
+Questo permetterà a tutti di vedere il contenuto e faciliterà la risposta a eventuali domande da casa.
 
 **IMPORTANTE**: Selezionare l'opzione *"add a README file"*
 
 Creare il repository. Come si vede esso contiene solamente il file *README.md*.
-E' comune avere questo tipo di file, scritto in [Markdown](https://www.markdownguide.org/basic-syntax/),
+È comune avere questo tipo di file, scritto in [Markdown](https://www.markdownguide.org/basic-syntax/),
 per descrivere il contenuto del repository.
 
 ### Sui pc del laboratorio (provvisoria)
@@ -66,7 +66,7 @@ La cartella è la working directory,
 il cui contenuto viene inizializzato con i file aggiornati all'ultima versione (commit) disponibile sul repository.
 In questo caso la directory contiene solamente il file *README.md*.
 
-Se rendete visibili le cartelle nascoste all'interno della workind directory, vedrete un cartella nominata .git.
+Se rendete visibili le cartelle nascoste all'interno della working directory, vedrete un cartella nominata .git.
 Questa è una copia del repository remoto, contenente tutti i file utili per mantenere la "storia".
 
 ### Staging (git add)
@@ -88,7 +88,7 @@ git add README.md
 git status
 ```
 Ora le modifiche al file sono presenti nella *staging area* e verranno incluse nel prossimo commit (versione).
-E' anche possibile creare nuovi file e aggiungerli alla staging area utilizzando lo stesso comando.
+È anche possibile creare nuovi file e aggiungerli alla staging area utilizzando lo stesso comando.
 Per aggiungere tutte le modifiche (anche rimozioni file) usare:
 ```bash
 git add -A
@@ -117,9 +117,9 @@ Per aggiornare il repository remoto il seguente comando:
 ```bash
 git push
 ```
-Inseriere quando richiesto il proprio username e password. Come password usare il token **GitHub** precedentemente creato.
+Inserire quando richiesto il proprio username e password. Come password usare il token **GitHub** precedentemente creato.
 Su Windows potete copiarlo con ```ctrl + v```, su Mac potete usare ```Modifica -> Incolla```. 
-Il token non comparirà perchè l'input è nascosto.
+Il token non comparirà perché l'input è nascosto.
 Su Windows è possibile che compaia una finestra che richiede il token. Se accade inserirlo lì.
 
 Il comando poi sincronizzerà i commit del repository locale sul server remoto (**GitHub**)
@@ -196,7 +196,7 @@ Sul lato sinistro, invece, è presente la scheda commit
 che permette di eseguire tramite IDE alcune delle operazioni descritte in precedenza.
 
 Volendo usare il terminale, è presente una scheda *Terminal* che lo permette.
-E' possibie digitare qui tutti i comandi git visti in precedenza.
+È possibile digitare qui tutti i comandi git visti in precedenza.
 
 ### Laboratori
 Clonare il [repository del corso](https://github.com/ptrchv/APOpublic), e fare pull quando viene aggiornato.
@@ -205,7 +205,7 @@ aggiornato da voi.
 
 
 ### Conflitti
-E' possibile che ci siano dei conflitti quando si fa il pull e sono già presenti delle modifiche locali.
+È possibile che ci siano dei conflitti quando si fa il pull e sono già presenti delle modifiche locali.
 Questo aspetto non viene trattato perché più avanzato e riguarda il
 [branching](https://git-scm.com/book/en/v2/Git-Branching-Branches-in-a-Nutshell),
 ovvero quando più fili di sviluppo divergono e si reincontrano.
