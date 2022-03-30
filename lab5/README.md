@@ -45,10 +45,12 @@ Per ogni asteroide che esce dallo schermo in basso il punteggio dell'utente deve
 
 Se la navicella colpisce un asteroide la partita si resetta.
 Creare una logica per le collisioni semplice, anche se non verosimile data la forma degli oggetti.
+Per esempio è possibile usare il metodo *find_overlapping* del canvas.
 
 Migliorare il programma con funzionalità aggiuntive a piacere (salvataggio punteggio più alto, label con punteggio, ecc...)
 
 ![Sketchpad](img/asteroid.png)
+
 
 
 
