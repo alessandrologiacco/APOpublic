@@ -213,7 +213,7 @@ e i simboli delle variabili e funzioni creati.
 
 È però possibile associare un modulo da eseguire quando si esegue l'import del package.
 Questo può fare l'import dei moduli al suo interno. 
-Creare un file chiamato *\_\_init\_\_.py nella cartella *salutations*:
+Creare un file chiamato *\_\_init\_\_.py* nella cartella *salutations*:
 
 ```python
 import salutations.greetings, salutations.goodbye
@@ -301,6 +301,15 @@ python -m parallel        # da others
 python parallel.py        # da others
 python others/parallel.py # da principale
 ```
+
+### PyCharm
+PyCharm, quando si usano i bottoni dell'interfaccia grafica per lanciare gli script,
+aggiunge di default la directory principale del progetto alla lista di directory in cui python cerca i pacchetti.
+
+Se il codice utilizza import riferiti a una directory diversa, per esempio alla cartella dello specifico laboratorio,
+è possibile aggiungerla alla lista di ricerca dell'interprete facendo tasto destro su di essa e selezionando
+*Mark Directory as -> Sources Root*.
+
 
 ## Riferimenti
 - [Moduli e Pacchetti](https://realpython.com/python-modules-packages/)

@@ -129,6 +129,23 @@ Cosa molto scomoda, che può richiede anche tempo se la libreria è vasta e risc
 
 Pertanto pip utilizza di default la versione wheel, quando questa è disponibile.
 
+## PyCharm
+Quando si crea un nuovo progetto su Pycharm, di default viene creato un nuovo virtual environment.
+
+Se invece si è aperta una cartella già esistente questo non viene creato.
+È possibile andare in *File->Settings->Project:"Nome progetto"->"Python interpreter"* e aggiungere un nuovo environment
+o selezionarne uno già esistente (per esempio se lo si è creato tramite terminale).
+
+Per vedere se un environment è attivo aprire un nuovo terminale in Pycharm tramite la scheda *Terminal* in basso
+e controllare se il nome dell'environment appare tra parentesi all'inizio della stringa che appare sulla console.
+Esempio:
+
+```
+(nome_virtualenv) pietro@pietro-pc:~/Documents/APOpublic$
+```
+
+Per installare librerie nell'environment è possibile digitare i comandi pip all'interno di un terminale che ha l'environment attivo.
+Altrimenti è possibile aprire la scheda *Python Packages* in basso e utilizzare l'interfaccia grafica messa a disposizione da PyCharm.
 
 ## Riferimenti
 - [Virtual Environments](https://realpython.com/python-virtual-environments-a-primer/)
