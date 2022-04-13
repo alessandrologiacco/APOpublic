@@ -310,6 +310,13 @@ Se il codice utilizza import riferiti a una directory diversa, per esempio alla 
 è possibile aggiungerla alla lista di ricerca dell'interprete facendo tasto destro su di essa e selezionando
 *Mark Directory as -> Sources Root*.
 
+PyCharm, di default, quando si fa tasto destro su un file e si seleziona *Run*,
+lancia lo script utilizzando come *working directory* la cartella che lo contiene.
+Per lanciare un modulo che **NON** si trova nel directory principale del progetto utilizzando la directory principale come *working directory*,
+aprire il menù a tendina vicino al pulsante play e cliccare su *Edit configurations*.
+Cliccare sulla configurazione di lancio dello script e cambiare la *working directory* inserendo il percorso della cartella principale.
+
+
 
 ## Riferimenti
 - [Moduli e Pacchetti](https://realpython.com/python-modules-packages/)
