@@ -1,0 +1,32 @@
+@startuml
+Class Course {
+course_code : str
+name: str
+cfu: int
+get_students(): list
+add_student(s: Student): None
+}
+
+Class Student {
+student_number : str
+name: str
+age: int
+get_courses(): list
+enroll(c: Course): None
+}
+
+Class Timeslot {
+room : str
+start_time: str
+end_time: str
+book(c: Course): None
+participate(s: Student): None
+get_courses(): None
+get_students(): list
+}
+
+Student " 1..N "--" * " Course
+Timeslot  " * "--" * " Student
+Course " 0..1 "--" 0..N " Timeslot
+
+@enduml

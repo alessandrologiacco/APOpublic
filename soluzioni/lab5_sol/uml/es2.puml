@@ -1,0 +1,44 @@
+@startuml
+
+Class WaterElement {
+name: str
+flow: double
+add_tributary(w : WaterElement): None
+get_tributary(): WaterElement
+}
+
+Class River {
+lenght: float
+municipalities: list
+}
+
+Class Mouth {
+municipality: str
+}
+
+Class Source {
+height: int
+municipality: str
+}
+
+Class Agency {
+name: str
+region: str
+add_water_element(w: WaterElement): None
+get_water_elements(): list
+}
+
+
+WaterElement <|-- River
+WaterElement <|-- Mouth
+WaterElement <|-- Source
+
+WaterElement " * "--" 0..1 " Agency
+
+River " * "-->" 0..1 " River: is tributary
+River " * "-->" 0..1 " Mouth: is tributary
+
+Source " * "-->" 0..1 " River: is tributary
+Source " * "-->" 0..1 " Mouth: is tributary
+
+@enduml
