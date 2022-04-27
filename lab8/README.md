@@ -44,7 +44,7 @@ Fare l'override dei metodi ```dim(self)``` e ```__repr(self)__``` per restituire
 il numero di righe e una stringa rappresentante il contenuto del file.
 
 Creare la classe *BitMap* che eredita da *File*.
-Il costruttore accetta come parametri il nome del file e una tabella contenente numeri da 0 a 256
+Il costruttore accetta come parametri il nome del file e una tabella contenente numeri da 0 a 255
 (non controllare correttezza) rappresentante i colori dell'immagine.
 
 Fare l'override del metodo ```dim(self)``` per restituire un tupla contenente le dimensioni dell'immagine.
