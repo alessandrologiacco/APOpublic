@@ -5,6 +5,9 @@ from diet.elements import Recipe, Menu
 
 class Food:
 
+    def __init__(self):
+        pass
+
     # R1
     def define_raw_material(self, name: str, calories: float, proteins: float, carbs: float, fats: float) -> None:
         pass
