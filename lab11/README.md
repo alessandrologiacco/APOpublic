@@ -49,6 +49,11 @@ restituisce la lista di materie prime in ordine alfabetico.
 Il metodo ```get_raw_material(self, name: str) -> NutritionalElement``` di *Food*
 restituisce la materia prima dato il nome.
 
+**ATTENZIONE**: I type hint *NutritionalElement* e *List[NutritionalElement]*
+non indicano solamente un NutritionalElement o una lista di NutritionalElement,
+ma includono anche oggetti di classi che derivano da *NutritionalElement* o liste di essi.
+Infatti non è possibile creare oggetti *NutritionalElement* in quanto la classe è astratta.
+
 
 ## R2: Prodotti
 Un prodotto preconfezionato (ad esempio un cono gelato) deve implementare la classe astratta NutritionalElement.
